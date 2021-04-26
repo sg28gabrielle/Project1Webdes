@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tatamu</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  font-family:'Times New Roman', sans-serif;
+}
+div.header{
+  position: fixed; top:0;right:0;left:0;height:100px;
+  background-color:rgba(134, 152, 95, 0.69);
+  z-index: 10000;
+}
+  div.slide{
+    min-height:100vh;
+    background-color:#FFFCE2;
+    background-image:url(res/chair.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: bottom left;
+    position: relative;
+  }
+  div.title{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+    right: 8vw;
+    bottom: 8vw;
+  }
+  div.title h1{
+    font-size: 8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 0;
+    justify-self: center;
+
+  }
+  div.title a{
+    display:block;
+    justify-self: center;
+    box-shadow: 1px 1px 1px 1px #000000;
+    align-self: end;
+    text-decoration: none;
+    color: #000000;
+    background-color: #86985F;
+    border:0 solid #000000;
+    padding:1em;
+    text-transform:
+    font-size: 0.7em;
+  }
+  div.title a:hover{
+    box-shadow: 0px 0px 0px 0px #000000;
+    background-color: #B2C181;
+    margin-bottom: 3px;
+  }
+  div.title a:active{
+    box-shadow: none;
+    margin-bottom: 0;
+    }
+    div.title h2{
+      font-size: 1.6em;
+      line-height: 2em;
+      justify-self: center;
+
+    }
+    div.slide2{
+min-height: 100vh;
+    }
+    div.body2{
+      min-width: 1400px; margin: auto;
+
+    }
+
+  </style>
+</head>
+
+<body>
+<div class= "header">
+</div>
+
+<div class="slide">
+  <div class="title">
+    <h1>TATAMU</h1>
+      <h2>If your ideas are bigger than your room.</h2>
+    <a href="#">Buy Now</a>
+  </div>
+</div>
+<div class="slide2">
+  <div class="body2">
+    <h1> Do you need more room,<br> in your room?<br></h1>
+  </div>
+</div>
+</div>
+</body>
+</html>
